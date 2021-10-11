@@ -8,13 +8,13 @@ router.get("/", function (res) {
 });
 
 // Get ./public/exercise.html
-router.get("/", function (res) {
+router.get("/exercise", function (res) {
     res.sendFile(path.join(__dirname, "../public/exercise.html"));
 
 });
 
 // Get ./public/stats.html
-router.get("/", function (res) {
+router.get("/stats", function (res) {
     res.sendFile(path.join(__dirname, "../public/stats.html"));
 
 });
