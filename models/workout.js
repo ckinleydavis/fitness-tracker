@@ -2,7 +2,12 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Structure based on ./seeders/seed.js
 const workoutSchema = new Schema({
+ day: {
+      type: Date,
+      default: Date.now,
+ },
  exercise: [{
      name: {
         type: String,
@@ -29,10 +34,6 @@ const workoutSchema = new Schema({
      duration: {
         type: Number,
         required: "How many minutes? ",
-     },
-     date: {
-         type: Date,
-         default: Date.now,
      },
  }],
 });
