@@ -3,17 +3,19 @@ const router = require("express").Router();
 const path = require("path");
 
 // Get ./public/index.html
-router.get({
-
+router.get("/", function (res) {
+    res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
 // Get ./public/exercise.html
-router.get({
+router.get("/", function (res) {
+    res.sendFile(path.join(__dirname, "../public/exercise.html"));
 
 });
 
 // Get ./public/stats.html
-router.get({
+router.get("/", function (res) {
+    res.sendFile(path.join(__dirname, "../public/stats.html"));
 
 });
 
