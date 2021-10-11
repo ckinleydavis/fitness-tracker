@@ -19,3 +19,7 @@ record the duration of an exercise  | keep track of how much time spent
 record cardio exercise              | know the distance travelled
 <br/>
 
+## 🖼️ Wireframe
+<br/>
+<img src="./public/images/fitness-tracker-wireframe.png" height="40%" width="40%" alt="Wireframe for Fitness Tracker">
+<br/><br/>
