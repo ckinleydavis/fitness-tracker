@@ -23,3 +23,8 @@ record cardio exercise              | know the distance travelled
 <br/>
 <img src="./public/images/fitness-tracker-wireframe.png" height="40%" width="40%" alt="Wireframe for Fitness Tracker">
 <br/><br/>
+
+## 📹 Video Demonstration
+<video controls width="80%" align="center" src="./public/images/Fitness Tracker.webm" type="video/webm"> 
+    Sorry, your browser doesn't support embedded videos.
+</video>
